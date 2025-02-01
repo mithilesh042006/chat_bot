@@ -7,8 +7,11 @@ class MyTextfield extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextField(
       decoration: InputDecoration(
-        enabledBorder: OutlineInputBorder(),
-        focusedBorder: OutlineInputBorder(),
+        focusColor: Colors.black,
+        enabledBorder:
+            OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+        focusedBorder:
+            OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
         hintText: "Ask anything to MOHAMMED BOT",
       ),
     );
